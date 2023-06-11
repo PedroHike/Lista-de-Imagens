@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+body{
+    font-family: 'Public Sans';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lista li{
+    display: flex;
+    margin: 1px 20px;
+    width: 335px;
+    position: relative;
+    height: 432px;
+    align-items: end;
+}
+
+.lista .texto{
+    padding: 26px 45px;
+    color: #fff;
+    position: absolute;
+}
